@@ -51,12 +51,14 @@ function generatePassword() {
     availableChars = availableChars.concat(uppercaseChars);
   }
 
-  //   for loop is created for the if statments for each array until the password length is what the User wants.
+  //   for loop is created for the if statements until the password length is what the User wants. Each time the loop run, it will randomly pick a value only from array that meet the User's choices.
   var userPassword = [];
   for (let i = 0; i < howManyChars; i++) {
     const IndexValue = (Math.floor(Math.random() * availableChars.length));
     const randomChars = availableChars[IndexValue];
     userPassword.push(randomChars)
   }
+
+  // creates and returns a new string by concatenating all of the elements in an array
   return userPassword.join("");
 }
