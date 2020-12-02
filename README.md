@@ -8,10 +8,10 @@
 ## Usage 
 
 1) Open the Index.html file with Chrome/Firefox web browsers:
-1) Click on the "Generate Password" red button. See figure [Click Button Demo](How-To-Use-I.PNG).
-2) A prompt will popup and ask how long you want your password to be. Must be between 8-128 exclusively.
-3) Select Ok (Yes) or Cancel (No) for each questions being asked.
-4) A password will be generated based on your choices.
+1) Click on the "Generate Password" red button. 
+2) A prompt will popup and ask how long you want your password to be. See [First question Demo](How-To-Use.PNG). It is important to remember that the password length has to be between 8-128 exclusively. If User puts anything not in between, an alert message will pop up on the screen. User will have to try again.
+3) Select Ok (Yes) or Cancel (No) for each questions being asked after User answers the first question properly.
+4) A password will be generated based on your choices in the box. See [Click Button Demo](How-To-Use-I.PNG).
 
 ## Credits
 
